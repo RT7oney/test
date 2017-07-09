@@ -1,8 +1,0 @@
-*/config/development
-*/logs/log-*.php
-*/application/logs/*
-*/logs/!index.html
-*/cache/*
-*/cache/!index.html
-*/cache/!.htaccess
-.DS_Store
