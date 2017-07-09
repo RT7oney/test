@@ -64,7 +64,6 @@ class CI_Controller {
 	 * @return	void
 	 */
 	public function __construct() {
-		die('1222345');
 		self::$instance = &$this;
 
 		// Assign all the class objects that were instantiated by the
