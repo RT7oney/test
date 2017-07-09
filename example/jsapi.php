@@ -19,7 +19,7 @@ function printf_info($data) {
 //①、获取用户openid
 $tools = new JsApiPay();
 $openId = $tools->GetOpenid();
-die($openId);
+
 //②、统一下单
 $input = new WxPayUnifiedOrder();
 $input->SetBody("test");
